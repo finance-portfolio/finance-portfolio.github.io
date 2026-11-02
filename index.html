@@ -38,6 +38,29 @@ background:radial-gradient(circle,var(--glow),transparent 62%);filter:blur(38px)
 font-weight:800;color:var(--pur2);white-space:nowrap}
 .rlabel i{flex:1;height:1px;background:var(--ln)}
 .cover h1{font-size:clamp(2.3rem,6vw,4rem);font-weight:900;
+.hero-name{
+  font-size:clamp(2.8rem,7vw,4.8rem);
+  font-weight:900;
+  line-height:1;
+  letter-spacing:-2.4px;
+  color:var(--tx);
+  margin-bottom:18px;
+}
+.hero-tagline{
+  font-size:clamp(1.65rem,4vw,2.65rem);
+  font-weight:800;
+  line-height:1.15;
+  letter-spacing:-1px;
+  color:var(--tx);
+  margin-bottom:22px;
+}
+.hero-tagline em{
+  display:block;
+  font-style:normal;
+  color:var(--pur2) !important;
+  background:none !important;
+  -webkit-text-fill-color:var(--pur2) !important;
+}
 line-height:1.04;letter-spacing:-2.2px;margin-bottom:20px}
 .cover h1 em{font-style:normal;display:block;
 background:linear-gradient(100deg,var(--pur),var(--pur2) 62%,#d9ccff);
@@ -214,7 +237,12 @@ footer .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
 <div class="cover">
 <div class="wrap">
 <div class="rlabel"><span>FP&amp;A Portfolio </span><i></i><span>Bangalore, India</span></div>
-<h1>Turning numbers<em>into clear decisions.</em></h1>
+<h1 class="hero-name">Nagaraksha N</h1>
+<h2 class="hero-tagline">
+  <span style="color:#eef0fa !important; -webkit-text-fill-color:#eef0fa
+  !important;">Turning numbers</span><span style="color:#a78bfa !important; -webkit-text-fill-color:#a78bfa
+  !important;"> into clear decisions.</span>
+  </h2>
 <p class="strap">Three and a half years in FP&amp;A — building the bookings, Revenue and forecasting reporting for a
 multi-division software portfolio, produced weekly for the executive team, the board and a
 private-equity sponsor. Below are three working models you can run yourself.</p>
@@ -865,7 +893,8 @@ headcount steps up, so the <b>cash-out date moves when the assumptions move</b>.
         <div class="ctc-btns">
           <button class="ctc-btn" onclick="window.location.href='mailto:raksha04099@gmail.com'">Email me</button>
           <button class="ctc-btn" onclick="(function(){var n= ['91','99806','14417'].join('');var m='Hello Nagaraksha, I came across your portfolio and would like to connect.';window.open('https://wa.me/'+n+'?text='+encodeURIComponent(m),'_blank');})()">WhatsApp me</button>
-          <button class="ctc-btn o" onclick="window.open('https://www.linkedin.com/in/nagaraksha-n-865246196','_blank')">View LinkedIn</button>
+          <button class="ctc-btn" onclick="window.location.href='tel=+919980614417' ">Ring me</button>
+          <button class="ctc-btn" onclick="window.open('https://www.linkedin.com/in/nagaraksha-n-865246196','_blank')">View LinkedIn</button>
         </div>
       </div>
     </div>
